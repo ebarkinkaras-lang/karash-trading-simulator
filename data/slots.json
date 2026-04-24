@@ -3,8 +3,8 @@
     "name": "ilk denemem",
     "exchange": "BIST",
     "capital": 100000,
-    "cash": 100000,
-    "portfolio_value": 100000,
+    "cash": 10237.5,
+    "portfolio_value": 100000.0,
     "pnl_pct": 0.0,
     "strong_thresh": 50,
     "indicators": [
@@ -25,10 +25,40 @@
     ],
     "active": true,
     "stopped": false,
-    "open_positions": [],
-    "trade_log": [],
-    "last_run": "2026-04-23",
+    "open_positions": [
+      {
+        "ticker": "TUPRS.IS",
+        "qty": 334,
+        "buy_price": 268.75,
+        "buy_date": "2026-04-24",
+        "score_at_buy": 51.05
+      }
+    ],
+    "trade_log": [
+      {
+        "date": "2026-04-24",
+        "action": "AL",
+        "ticker": "TUPRS.IS",
+        "qty": 334,
+        "price": 268.75,
+        "score": 51.05,
+        "cost": 89762.5,
+        "cash_after": 10237.5,
+        "components": {
+          "trend": 85.0,
+          "momentum": -0.3,
+          "volatility": 66.0,
+          "volume": 60.0,
+          "sr": -60.0,
+          "ml": 60.0,
+          "dema": 100.0,
+          "rsi": 63.4,
+          "atr": 9.9331
+        }
+      }
+    ],
+    "last_run": "2026-04-24",
     "currency": "TRY",
-    "tickers_scanned": 0
+    "tickers_scanned": 20
   }
 ]
