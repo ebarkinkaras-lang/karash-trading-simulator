@@ -3,9 +3,9 @@
     "name": "ilk denemem",
     "exchange": "BIST",
     "capital": 100000,
-    "cash": 1423.5,
-    "portfolio_value": 97522.0,
-    "pnl_pct": -2.48,
+    "cash": 229.29,
+    "portfolio_value": 97451.5,
+    "pnl_pct": -2.55,
     "strong_thresh": 50,
     "indicators": [
       "MC-Hull",
@@ -39,6 +39,20 @@
         "buy_price": 678.0,
         "buy_date": "2026-05-06",
         "score_at_buy": 51.41
+      },
+      {
+        "ticker": "TTKOM.IS",
+        "qty": 9,
+        "buy_price": 66.45,
+        "buy_date": "2026-05-08",
+        "score_at_buy": 52.82
+      },
+      {
+        "ticker": "SISE.IS",
+        "qty": 12,
+        "buy_price": 49.68,
+        "buy_date": "2026-05-08",
+        "score_at_buy": 51.92
       }
     ],
     "trade_log": [
@@ -83,9 +97,51 @@
           "rsi": 72.1,
           "atr": 19.4979
         }
+      },
+      {
+        "date": "2026-05-08",
+        "action": "AL",
+        "ticker": "TTKOM.IS",
+        "qty": 9,
+        "price": 66.45,
+        "score": 52.82,
+        "cost": 598.05,
+        "cash_after": 825.45,
+        "components": {
+          "trend": 85.0,
+          "momentum": 43.7,
+          "volatility": 64.7,
+          "volume": 60.0,
+          "sr": -0.3,
+          "ml": 60.0,
+          "dema": 75.0,
+          "rsi": 67.8,
+          "atr": 2.1881
+        }
+      },
+      {
+        "date": "2026-05-08",
+        "action": "AL",
+        "ticker": "SISE.IS",
+        "qty": 12,
+        "price": 49.68,
+        "score": 51.92,
+        "cost": 596.16,
+        "cash_after": 229.29,
+        "components": {
+          "trend": 85.0,
+          "momentum": 36.7,
+          "volatility": 76.4,
+          "volume": 60.0,
+          "sr": -60.0,
+          "ml": 100.0,
+          "dema": 75.0,
+          "rsi": 64.1,
+          "atr": 1.8868
+        }
       }
     ],
-    "last_run": "2026-05-07",
+    "last_run": "2026-05-08",
     "currency": "TRY",
     "tickers_scanned": 20
   }
