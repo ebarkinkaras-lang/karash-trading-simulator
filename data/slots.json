@@ -4,8 +4,8 @@
     "exchange": "BIST",
     "capital": 100000,
     "cash": 229.29,
-    "portfolio_value": 88787.94,
-    "pnl_pct": -11.21,
+    "portfolio_value": 90130.35,
+    "pnl_pct": -9.87,
     "strong_thresh": 50,
     "indicators": [
       "MC-Hull",
@@ -141,7 +141,7 @@
         }
       }
     ],
-    "last_run": "2026-05-29",
+    "last_run": "2026-06-01",
     "currency": "TRY",
     "tickers_scanned": 20
   }
