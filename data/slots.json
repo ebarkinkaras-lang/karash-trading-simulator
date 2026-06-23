@@ -4,7 +4,7 @@
     "exchange": "BIST",
     "capital": 100000,
     "cash": 75679.89,
-    "portfolio_value": 85677.37,
+    "portfolio_value": 85684.13,
     "pnl_pct": -14.32,
     "strong_thresh": 50,
     "indicators": [
@@ -145,7 +145,7 @@
         "reason": "stop-loss"
       }
     ],
-    "last_run": "2026-06-22",
+    "last_run": "2026-06-23",
     "currency": "TRY",
     "tickers_scanned": 20
   }
